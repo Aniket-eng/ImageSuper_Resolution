@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  line-height: 1.5;
+  font-weight: 400;
+  background: #232323;
+  display: flex;
+  flex-direction: column;
+  
+}
+.drag-area{
+  border: 3px dashed #fff;
+  width: auto; 
+  height: auto; 
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  object-fit: cover;
+  align-items: center;
+  margin-top: 300px;
+  
+}
+.drag-area.active{
+  border: 2px solid #fff;
+}
+.drag-area .icon{
+  font-size: 100px;
+  margin-top: 30px;
+  color: #3282b8;
+}
+.drag-area header{
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 30px;
+  display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+.tab {
+  display: inline-block;
+  margin-left: 180px;
+}
+.drag-area span{
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+
+}
+.drag-area button{
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #3282b8;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+.drag-area img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+
+
+.image button{
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #3282b8;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  justify-content: center;
+
+
+}
+.image{
+  margin-top: 50px;
+  width: auto; 
+  height: auto;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: #fff;
+
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    
+  }
+
+.hide{
+    visibility: hidden;
+    }
+    
+nav{
+  
+  justify-content: space-around;
+  top: 0;
+  width: 100%;
+  background-color: #3282b8;
+  border-bottom: 2px solid white;
+  height: 90px;
+  position: fixed;
+  
+
+
+}
+
+.headerr{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border: 2px #ffffff;
+  border-radius: 2px;
+  
+}
+.headerr h1{
+  font-size:40px;
+  font-weight: bold;
+  padding: 10px;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+}
+
+.headerr img{
+  margin-top: 5px;
+  
+  padding-left: 25px;
+  
+
+}
+
+
+
+
+   

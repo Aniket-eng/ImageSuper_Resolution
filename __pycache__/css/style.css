@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  line-height: 1.5;
+  font-weight: 400;
+  background: #232323;
+  display: flex;
+  flex-direction: column;
+  
+}
+.drag-area{
+  border: 3px dashed #fff;
+  height: 500px;
+  width: 700px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  object-fit: cover;
+  padding: 50px;
+  margin-top: 149px;
+  
+}
+.drag-area.active{
+  border: 2px solid #fff;
+}
+.drag-area .icon{
+  font-size: 100px;
+  color: #3282b8;
+}
+.drag-area header{
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+.drag-area span{
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  margin: 10px 0 15px 0;
+}
+.drag-area button{
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #3282b8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.drag-area img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+
+
+.image button{
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #3282b8;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: center;
+
+
+}
+.image{
+  margin-top: 50px;
+  height: 500px;
+  width: 1000px;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: #fff;
+
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    
+  }
+
+.hide{
+    visibility: hidden;
+    }
+    
+nav{
+  
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #3282b8;
+
+
+}
+
+.headerr{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  
+}
+.headerr h1{
+
+  font-weight: bold;
+}
+
+.headerr img{
+
+  margin: 5px;
+
+}
+
+
+
+
+   
